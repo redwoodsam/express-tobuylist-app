@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const Item = require('./models/items');
-const mongodb = 'mongodb+srv://sam101914:sam101914@cluster0.sn04r.mongodb.net/items-database?retryWrites=true&w=majority'
+const mongodb = 'MONGODB_ACCESS_URL'
 const app = express();
 
 app.use(express.urlencoded({ extended: true }))
